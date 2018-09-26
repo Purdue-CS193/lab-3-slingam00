@@ -58,7 +58,7 @@ public class UtilTester {
 
     @Test
     public void testLongUsername() {
-        assertEquals("mdecimus", StringUtils.makePurdueUsername("maximus", "decimus-meridius"));
+        assertEquals("mdecimus", StringUtils.makePurdueUsername("maximus", "decimus"));
     }
 
     @Test
@@ -68,8 +68,8 @@ public class UtilTester {
 
     public static final String simpleTextMessage = "User jhanky, you have been entered to win one year's free " +
             "tuition at Purdue! Reply from your email (jhanky@purdue.edu), please!";
-    public static final String simpleTextExpunged = "User [DATA EXPUNGED], you have been entered to win one year's free " +
-            "tuition at Purdue! Reply from your email ([DATA EXPUNGED]@purdue.edu), please!";
+    public static final String simpleTextExpunged = "User [DATA EXPUNDGED], you have been entered to win one year's free " +
+            "tuition at Purdue! Reply from your email ([DATA EXPUNDGED]@purdue.edu), please!";
 
     public static final String complexTextMessage = "SCP-173 approached D-class member bchunky at approximately 04:07 " +
             "into the testing procedure. bchunky exhibited nervous behavior at first, knowing that it would not be" +
@@ -80,13 +80,13 @@ public class UtilTester {
             "having an affair with D-Class member bchunky, and explained that it was part of a \"QA procedure " +
             "passed down from higher-ups.\"";
 
-    public static final String complexTextExpunged = "SCP-173 approached D-class member [DATA EXPUNGED] at approximately 04:07 " +
-            "into the testing procedure. [DATA EXPUNGED] exhibited nervous behavior at first, knowing that it would not be" +
+    public static final String complexTextExpunged = "SCP-173 approached D-class member [DATA EXPUNDGED] at approximately 04:07 " +
+            "into the testing procedure. [DATA EXPUNDGED] exhibited nervous behavior at first, knowing that it would not be" +
             " simple to maintain containment. In spite of being the sole D-class to survive the latest Keter-level " +
-            "event throughout the facility, [DATA EXPUNGED] was able to survive until 07:45 by alternating blinking between " +
-            "eyes. [DATA EXPUNGED] ultimately had their neck snapped at 07:48 after Dr. Robertson played a loud air horn " +
+            "event throughout the facility, [DATA EXPUNDGED] was able to survive until 07:45 by alternating blinking between " +
+            "eyes. [DATA EXPUNDGED] ultimately had their neck snapped at 07:48 after Dr. Robertson played a loud air horn " +
             "over the intercom. Dr. Robertson claims this was not at all related to the fact that his wife was " +
-            "having an affair with D-Class member [DATA EXPUNGED], and explained that it was part of a \"QA procedure " +
+            "having an affair with D-Class member [DATA EXPUNDGED], and explained that it was part of a \"QA procedure " +
             "passed down from higher-ups.\"";
 
     @Test
